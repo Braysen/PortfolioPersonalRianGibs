@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import HomeSection from './components/HomeSection';
 import './prueba.css'
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
   return (
           <>
             <Header/>
+            <main className="l-main">
+              <HomeSection/>
+            </main>
           </>
   );
 }
