@@ -13,14 +13,14 @@ export default function PortfolioSection() {
             <h2 className="section-title">Portfolio</h2>
 
             <div className="portfolio__nav">
-                <span className="portfolio__item">All</span>
-                <span className="portfolio__item">Web</span>
-                <span className="portfolio__item">Mobile</span>
-                <span className="portfolio__item">Game</span>
+                <span className="portfolio__item active-portfolio" data-filter="all">All</span>
+                <span className="portfolio__item" data-filter=".web">Web</span>
+                <span className="portfolio__item" data-filter=".mobile">Mobile</span>
+                <span className="portfolio__item" data-filter=".game">Game</span>
             </div>
 
             <div className="portfolio__container bd-grid">
-                <div className="portfolio__content">
+                <div className="portfolio__content mix mobile">
                     <a href="# "><img src={logo1} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Mobile Development</span>
@@ -29,7 +29,7 @@ export default function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="portfolio__content">
+                <div className="portfolio__content mix mobile">
                     <a href="# "><img src={logo2} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Mobile Development</span>
@@ -38,7 +38,7 @@ export default function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="portfolio__content">
+                <div className="portfolio__content mix web">
                     <a href="# "><img src={logo3} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Web Development</span>
@@ -47,7 +47,7 @@ export default function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="portfolio__content">
+                <div className="portfolio__content mix web">
                     <a href="# "><img src={logo4} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Web Development</span>
@@ -56,7 +56,7 @@ export default function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="portfolio__content">
+                <div className="portfolio__content mix game">
                     <a href="# "><img src={logo5} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Game Development</span>
@@ -65,7 +65,7 @@ export default function PortfolioSection() {
                     </div>
                 </div>
 
-                <div className="portfolio__content">
+                <div className="portfolio__content mix game">
                     <a href="# "><img src={logo6} alt="" className="portfolio__img"/></a>
                     <div className="portfolio__data">
                         <span className="portfolio__subtitle">Game Development</span>
