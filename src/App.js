@@ -2,6 +2,8 @@ import React from 'react';
 import AboutSection from './components/AboutSection';
 import Header from './components/Header';
 import HomeSection from './components/HomeSection';
+import PortfolioSection from './components/PortfolioSection';
+import ProjectSection from './components/ProjectSection';
 import QualificationSection from './components/QualificationSection';
 import ServicesSection from './components/ServicesSection';
 import './prueba.css'
@@ -16,6 +18,8 @@ function App() {
               <AboutSection/>
               <QualificationSection/>
               <ServicesSection/>
+              <ProjectSection/>
+              <PortfolioSection/>
             </main>
           </>
   );
