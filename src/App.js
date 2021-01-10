@@ -6,6 +6,7 @@ import PortfolioSection from './components/PortfolioSection';
 import ProjectSection from './components/ProjectSection';
 import QualificationSection from './components/QualificationSection';
 import ServicesSection from './components/ServicesSection';
+import TestimonialSection from './components/TestimonialSection';
 import './prueba.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <ServicesSection/>
               <ProjectSection/>
               <PortfolioSection/>
+              <TestimonialSection/>
             </main>
           </>
   );
