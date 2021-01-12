@@ -25,8 +25,9 @@ function App() {
               <PortfolioSection/>
               <TestimonialSection/>
               <ContactSection/>
-              <FooterSection/>
+              
             </main>
+            <FooterSection/>
           </>
   );
 }

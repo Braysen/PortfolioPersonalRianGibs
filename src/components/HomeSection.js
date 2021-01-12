@@ -9,10 +9,10 @@ export default function HomeSection() {
         <section className="home" id="home">
             <div className="home__container bd-container bd-grid">
                 <div className="home__data">
-                    <span className="home__greetings">Hello, My name is</span>
+                    <span className="home__greeting">Hello, My name is</span>
                     <h1 className="home__name">Rian Gibs</h1>
                     <span className="home__profession">Backend Developer</span>
-                    <a download="" href="#cv" className="button button-light">Download Cv</a>
+                    <a download="" href="#cv" className="button button-light home__button">Download Cv</a>
                 </div>
                 <div className="home__social">
                     <a href="# " className="home__social-icon">
@@ -29,6 +29,7 @@ export default function HomeSection() {
                     <img src={logo} alt=""/>
                 </div>
             </div>
+            
         </section>
     )
 }
